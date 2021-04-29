@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-size: normal;
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 40px !important;
+}
+
+a {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: #444;
+}
+
+.header a:hover {
+    color: #78b0ef !important;
+}
+
+.footer {
+    border-top: 1px solid rgb(226, 223, 223);
+}
+
+.footer #top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer #top .footer__logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer #top .footer__logo img {
+    width: 70px;
+}
+
+.footer #top .footer__social {
+    list-style: none;
+}
+
+.footer #top #media {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-list {
+    font-size: 14px;
+}
+
+.header ul {
+    padding-top: 15px;
+}
+
+
+.home #buyit {
+    background: #78b0ef;
+    width: 50% !important;
+    height: 50px;
+    padding-left: 20px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #78b0ef;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.home #buyit:hover,
+#donate {
+    background: #444;
+}
+
+.header #donate:hover {
+    background: #444 !important;
+}
+
+.marked {
+    list-style-image: url("../img/tick-mark.svg");
+}
+
+.unmarked {
+    list-style-image: url("../img/circle.svg");
+}
