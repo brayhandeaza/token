@@ -99,3 +99,47 @@ a {
 .unmarked {
     list-style-image: url("../img/circle.svg");
 }
+
+
+/* Nose */
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nose {
+    width: 100%;
+    height: 600px;
+    background: #1e354e;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.nose .left {
+    width: 55%;
+}
+
+.nose .right {
+    width: 45%;
+}
+
+.nose .left,
+.nose .right {
+    margin: 5px;
+    padding-left: 100px;
+}
+
+.nose .title {
+    width: 45%;
+}
+
+.nose h1 {
+    background: #000;
+    text-align: center;
+    color: white;
+}
