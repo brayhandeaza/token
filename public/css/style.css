@@ -111,7 +111,7 @@ a {
 
 .nose {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background: #1e354e;
     padding: 50px;
     display: flex;
@@ -125,7 +125,7 @@ a {
 }
 
 .nose .right {
-    width: 45%;
+    width: 50%;
 }
 
 .nose .left,
@@ -135,11 +135,15 @@ a {
 }
 
 .nose .title {
-    width: 45%;
+    width: 50%;
 }
 
 .nose h1 {
     background: #000;
     text-align: center;
     color: white;
+}
+
+canvas {
+    width: 300px;
 }
